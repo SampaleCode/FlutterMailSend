@@ -35,8 +35,8 @@ class _MailSendState extends State<MailSend> {
   final textController = TextEditingController();
 
   Future<void> sendMail() async {
-    String username = "arpicoit@gmail.com"; // Your Email
-    String password = "vefndppmoyvsrjrk"; // Your Email Password
+    String username = ""; // Your Email
+    String password = ""; // Your Email Password
 
     //Create Gmail Server
     final smtpServer = gmail(username, password);
